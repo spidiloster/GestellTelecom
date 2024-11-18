@@ -1,0 +1,180 @@
+
+        /* Resetando estilos padrões */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-size: 100%;
+            margin-top: 5.2%;
+          
+            background-position: center;
+            background-position: top;
+            font-family: 'Arial', sans-serif;
+            background-image: url(img/cidade\ inteligente.jpg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            color: #333;
+            padding: 20px;
+        }
+
+        .container {
+            border: 1px solid #ddd;
+            background-color: #2b3a55;
+            border-radius: 8px;
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .logo img {
+            max-width: 250px;
+            margin-bottom: 0px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #96f8ff;
+            margin-bottom: 15px;
+        }
+        h2 {
+            color: #96f8ff;
+
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #ffffff;
+            margin-bottom: 25px;
+        }
+
+        .cta-button {
+            background-color: #39aefc;
+            color: white;
+            padding: 15px 35px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            border-radius: 50px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+        .cta-button:hover {
+            background-color: #a872ff;
+        }
+
+        .cta-button:active {
+            background-color: #003e74;
+        }
+
+        .cta-footer {
+            margin-top: 30px;
+            font-size: 1rem;
+            color: #888;
+        }
+
+        /* Rodapé */
+        .footer { 
+           border-radius: 4px;
+           height: 80%;
+            margin-top: 4%;
+            padding: 2%;
+            background-color: #2b3a55;
+            color: #555;
+            text-align: center;
+            border: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+        position: relative;
+        }
+
+        /* Logo no rodapé - posicionamento no canto esquerdo */
+        .footer .footer-logo {
+        
+            left: 20px;
+        }
+
+        .footer .footer-logo img {
+            margin-top: 0%;
+            width: 180px; /* Tamanho da logo */
+            max-width: 100%; /* Responsividade */
+        }
+
+        .footer .social-links {
+            margin-bottom: 0px;
+        }
+
+        .footer .social-links a {
+            margin: 0 15px;
+            color: #0074cc;
+            font-size: 1.5rem;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer .social-links a:hover {
+            color: #005fa3;
+        }
+
+        .footer p {
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        /* Estilos responsivos */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                height: auto;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .cta-button {
+                font-size: 1.1rem;
+                padding: 12px 30px;
+            }
+
+            .logo img {
+                max-width: 200px;
+                margin-bottom: 20px;
+                align-items: center;
+            }
+
+            .footer .social-links a {
+                font-size: 1.2rem;
+                align-items: center;
+            }
+
+            .footer p {
+                font-size: 0.8rem;
+            }
+
+            /* Logo no rodapé responsiva */
+            .footer .footer-logo img {
+                align-items: center;
+                width: 100px;
+        
+                 /* Logo menor em dispositivos móveis */
+            }
+        }
+  
